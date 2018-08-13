@@ -44,3 +44,8 @@ Add project to repository::
     generic@framer:~/src/framer/RazorTute$ git add *
     generic@framer:~/src/framer/RazorTute$ git commit
 
+Missing dependency
+------------------
+EntityFrameworkCore is needed::
+
+    generic@framer:~/src/framer/RazorTute$ dotnet add package Microsoft.EntityFrameworkCore.Sqlite
