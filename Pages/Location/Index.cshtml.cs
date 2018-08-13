@@ -18,7 +18,7 @@ namespace RazorTute.Pages.Location
             _context = context;
         }
 
-        public IList<Location> Location { get;set; }
+        public IList<RazorTute.Models.Location> Location { get;set; }
 
         public async Task OnGetAsync()
         {

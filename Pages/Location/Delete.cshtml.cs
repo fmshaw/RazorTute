@@ -19,7 +19,7 @@ namespace RazorTute.Pages.Location
         }
 
         [BindProperty]
-        public Location Location { get; set; }
+        public RazorTute.Models.Location Location { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

@@ -49,3 +49,12 @@ Missing dependency
 EntityFrameworkCore is needed::
 
     generic@framer:~/src/framer/RazorTute$ dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+
+Scaffolding
+-----------
+There were a series of errors with the Razor page scaffolds::
+    Pages/Location/Details.cshtml.cs(21,16): error CS0118: 'Location' is a namespace but is used like a type [/home/generic/src/framer/RazorTute/RazorTute.csproj]
+
+TODO: Find cause. Hypothesis - name clash with built in, passing unqualified model name to scaffolding.
+
+
